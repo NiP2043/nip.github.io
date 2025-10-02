@@ -6,30 +6,29 @@
   <title>NiP - Home</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="home-page">
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <img src="logo.png" alt="NiP Logo" class="nav-logo">
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="#">Cart</a></li>
+      <li><a href="#">Profile</a></li>
+    </ul>
+  </div>
 
-  <header>
-    <h1>NiP</h1>
-    <nav>
-      <a href="home.html">Home</a>
-      <a href="cart.html">Cart</a>
-      <a href="#">Profile</a>
-    </nav>
-  </header>
+  <!-- Search -->
+  <div class="search-box">
+    <input type="text" placeholder="Search Food, Grocery, Services...">
+  </div>
 
-  <section class="search">
-    <input type="text" placeholder="Search Food, Grocery, Services, Products...">
-  </section>
-
-  <section class="categories">
-    <h2>Explore Categories</h2>
-    <div class="cat-grid">
-      <div class="cat">🍔 Food</div>
-      <div class="cat">🛒 Grocery</div>
-      <div class="cat">⚙ Services</div>
-      <div class="cat">📦 Products</div>
-    </div>
-  </section>
-
+  <!-- Categories -->
+  <h2 class="heading">Explore Categories</h2>
+  <div class="categories">
+    <div class="card">🍔 Food</div>
+    <div class="card">🛒 Grocery</div>
+    <div class="card">⚙ Services</div>
+    <div class="card">📦 Products</div>
+  </div>
 </body>
 </html>
